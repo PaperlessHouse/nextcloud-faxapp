@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>faxapp</id>
+    <name>Fax App</name>
+    <summary>Summary</summary>
+    <description><![CDATA[Description]]></description>
+    <licence>agpl</licence>
+    <author mail="curtis@paperless.house" >Curtis Olson</author>
+    <version>0.0.3</version>
+    <namespace>FaxApp</namespace>
+    <category>tools</category>
+    <bugs>https://bugs.paperless.house</bugs>
+    <dependencies>
+        <nextcloud min-version="12" max-version="12"/>
+    </dependencies>
+    <settings>
+		<admin>OCA\FaxApp\Settings\Admin</admin>
+		<admin-section>OCA\FaxApp\Settings\Section</admin-section>
+	</settings>
+
+</info>
